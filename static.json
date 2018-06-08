@@ -6,7 +6,7 @@
       "url": "https://heroku.com",
       "status": 302
     },
-    "^/magic(.*)$": {
+    "/magic(.*)": {
       "url": "https://stonecircle.io$1",
       "regex": true
     }
