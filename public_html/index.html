@@ -1,2 +1,9 @@
-invalid again
-maybe now
+<h2>Standard</h2>
+<a href="/standard">/standard</a> doesn't work because it doesn't 100% match
+<hr>
+<a href="/standard/">/standard/</a> works as normal
+
+<h2>"magic" regex</h2>
+<a href="/magic">/magic</a> redirects to the root of the new url (kinda as normal)
+<hr>
+<a href="/magic/opensource">/magic/opensource</a> makes use of regex to "bring" the <em>/opensource</em> part with the redirect
