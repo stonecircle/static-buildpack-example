@@ -1,0 +1,14 @@
+{
+  "root": "public_html",
+  "clean_urls": true,
+  "redirects": {
+    "/standard/": {
+      "url": "https://heroku.com",
+      "status": 302
+    },
+    "^/magic(.*)$": {
+      "url": "https://stonecircle.io$1",
+      "regex": true
+    }
+  }
+}
